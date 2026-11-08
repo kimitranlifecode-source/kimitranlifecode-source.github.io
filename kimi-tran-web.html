@@ -1,0 +1,2555 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kimi Trần — Trang Cá Nhân Chính Thức | Good Vibes & Elegance</title>
+  <meta name="description" content="Trang web giới thiệu bản thân chính thức của Kimi Trần. Lan tỏa năng lượng tích cực, sống với trái tim biết ơn, sáng tạo cùng công nghệ AI và hướng tới những mục tiêu đẹp đẽ." />
+  <meta property="og:title" content="Kimi Trần — Trang Cá Nhân Chính Thức" />
+  <meta property="og:description" content="Hãy bắt đầu mỗi ngày với một trái tim biết ơn, một tâm thế tích cực và những mục tiêu đẹp đẽ! Kết nối với Kimi Trần trên Facebook." />
+  <meta property="og:image" content="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720" />
+  <meta property="og:type" content="profile" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <style>
+/* ==========================================================================
+   KIMI TRẦN — PERSONAL PORTFOLIO STYLESHEET
+   Luxury Lotus & Sunrise Gold Aesthetic (Dark & Light Themes)
+   ========================================================================== */
+
+:root,
+[data-theme="dark"] {
+  --bg-primary: #0b0d13;
+  --bg-secondary: #121621;
+  --bg-card: rgba(22, 27, 40, 0.72);
+  --bg-card-hover: rgba(30, 37, 54, 0.88);
+  --bg-glass: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-gold: rgba(245, 183, 64, 0.38);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --accent-gold: #f5b740;
+  --accent-gold-light: #fde68a;
+  --accent-lotus: #ec4899;
+  --accent-lotus-soft: #f472b6;
+  --accent-crimson: #e11d48;
+  --accent-fb: #1877f2;
+
+  --gradient-brand: linear-gradient(135deg, #f5b740 0%, #f472b6 55%, #e11d48 100%);
+  --gradient-gold: linear-gradient(135deg, #fde68a 0%, #f5b740 50%, #d97706 100%);
+  --shadow-card: 0 20px 45px -15px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 35px rgba(245, 183, 64, 0.22);
+  --navbar-bg: rgba(11, 13, 19, 0.82);
+}
+
+[data-theme="light"] {
+  --bg-primary: #fffdf9;
+  --bg-secondary: #fef7ed;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --bg-card-hover: rgba(255, 255, 255, 0.98);
+  --bg-glass: rgba(15, 23, 42, 0.05);
+  --border-subtle: rgba(15, 23, 42, 0.1);
+  --border-gold: rgba(217, 119, 6, 0.35);
+
+  --text-primary: #1e1b18;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  --accent-gold: #d97706;
+  --accent-gold-light: #b45309;
+  --accent-lotus: #db2777;
+  --accent-lotus-soft: #ec4899;
+  --accent-crimson: #be123c;
+
+  --shadow-card: 0 18px 40px -15px rgba(180, 83, 9, 0.12);
+  --shadow-glow: 0 10px 30px rgba(236, 72, 153, 0.15);
+  --navbar-bg: rgba(255, 253, 249, 0.86);
+}
+
+/* Reset & Base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.65;
+  overflow-x: hidden;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Ambient Background Glows */
+.ambient-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(110px);
+  opacity: 0.25;
+}
+
+[data-theme="light"] .glow {
+  opacity: 0.16;
+}
+
+.glow-gold {
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, #f5b740, transparent 70%);
+  top: -120px;
+  right: -100px;
+}
+
+.glow-lotus {
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, #ec4899, transparent 70%);
+  top: 40%;
+  left: -140px;
+}
+
+.glow-sun {
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, #e11d48, transparent 70%);
+  bottom: -150px;
+  right: 10%;
+}
+
+/* Typography Helpers */
+.text-gradient {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gold {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--navbar-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+  transition: all 0.3s ease;
+}
+
+.nav-inner {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.brand-signature {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.2rem;
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-right: 4px;
+}
+
+.brand-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-lotus);
+  box-shadow: 0 0 10px var(--accent-lotus);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  position: relative;
+  padding: 6px 0;
+  transition: color 0.25s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gradient-brand);
+  border-radius: 2px;
+  transition: width 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--text-primary);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.theme-toggle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-glass);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-gold);
+  transform: rotate(12deg);
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+[data-theme="dark"] .icon-moon {
+  display: none;
+}
+
+[data-theme="light"] .icon-sun {
+  display: none;
+}
+
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+}
+
+.mobile-menu-btn span {
+  width: 24px;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  border-radius: 999px;
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.btn-sm {
+  padding: 9px 18px;
+  font-size: 0.88rem;
+}
+
+.btn-lg {
+  padding: 14px 26px;
+  font-size: 0.98rem;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 13px 20px;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background: var(--gradient-brand);
+  color: #ffffff;
+  box-shadow: 0 10px 25px -5px rgba(225, 29, 72, 0.45);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px -5px rgba(245, 183, 64, 0.55);
+}
+
+.btn-glass {
+  background: var(--bg-glass);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(10px);
+}
+
+.btn-glass:hover {
+  border-color: var(--accent-gold);
+  background: rgba(245, 183, 64, 0.12);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 1px solid var(--border-gold);
+  color: var(--accent-gold);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: rgba(245, 183, 64, 0.12);
+  transform: translateY(-2px);
+}
+
+.icon-fb {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* HERO SECTION */
+.hero-section {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 90px;
+  min-height: 94vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-cover-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 540px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.hero-cover-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center 35%;
+  filter: saturate(1.15);
+  transform: scale(1.03);
+}
+
+.hero-cover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(11, 13, 19, 0.55) 0%,
+    rgba(11, 13, 19, 0.85) 65%,
+    var(--bg-primary) 100%
+  );
+}
+
+[data-theme="light"] .hero-cover-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 253, 249, 0.35) 0%,
+    rgba(255, 253, 249, 0.88) 68%,
+    var(--bg-primary) 100%
+  );
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: rgba(245, 183, 64, 0.14);
+  border: 1px solid var(--border-gold);
+  color: var(--accent-gold);
+  font-size: 0.86rem;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 9px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.hero-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.6rem, 5vw, 4.3rem);
+  line-height: 1.12;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero-name-highlight {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.hero-calligraphy {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 400;
+  color: var(--accent-gold);
+  opacity: 0.35;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+
+.hero-lead {
+  font-size: 1.08rem;
+  color: var(--text-secondary);
+  margin-bottom: 22px;
+  max-width: 600px;
+}
+
+.hero-quote {
+  padding: 16px 22px;
+  border-left: 4px solid var(--accent-gold);
+  background: var(--bg-card);
+  border-radius: 0 16px 16px 0;
+  font-style: italic;
+  color: var(--text-primary);
+  margin-bottom: 28px;
+  box-shadow: var(--shadow-card);
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  border-radius: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(12px);
+}
+
+.badge-icon {
+  font-size: 1.5rem;
+}
+
+.badge-item small {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-item strong {
+  font-size: 0.92rem;
+  color: var(--text-primary);
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+/* Hero Portrait Frame */
+.hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.portrait-frame {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 28px;
+  padding: 10px;
+  background: linear-gradient(145deg, rgba(245, 183, 64, 0.5), rgba(236, 72, 153, 0.35), rgba(255, 255, 255, 0.05));
+  box-shadow: var(--shadow-card), var(--shadow-glow);
+}
+
+.portrait-img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: transform 0.4s ease;
+}
+
+.portrait-frame:hover .portrait-img {
+  transform: scale(1.015);
+}
+
+.portrait-floating-card {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border-gold);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+  animation: floatY 4s ease-in-out infinite;
+}
+
+.card-top-left {
+  top: 22px;
+  left: -24px;
+}
+
+.card-bottom-right {
+  bottom: 26px;
+  right: -20px;
+  animation-delay: 2s;
+}
+
+.floating-emoji {
+  font-size: 1.5rem;
+}
+
+.portrait-floating-card strong {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+}
+
+.portrait-floating-card span {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+@keyframes floatY {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+/* SECTION COMMON */
+.section {
+  padding: 88px 0;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 56px;
+}
+
+.section-subtitle {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.1rem, 4vw, 3.1rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.section-desc {
+  color: var(--text-secondary);
+  font-size: 1.02rem;
+}
+
+/* ABOUT / PERSONA GRID */
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.persona-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.35s ease, border-color 0.35s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.persona-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--border-gold);
+}
+
+.persona-card-featured {
+  border-color: var(--border-gold);
+  box-shadow: var(--shadow-card), var(--shadow-glow);
+}
+
+.persona-img-wrap {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+.persona-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  cursor: zoom-in;
+  transition: transform 0.5s ease;
+}
+
+.persona-card:hover .persona-img-wrap img {
+  transform: scale(1.05);
+}
+
+.persona-tag {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(11, 13, 19, 0.78);
+  color: #fff;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.persona-tag.tag-gold {
+  background: linear-gradient(135deg, #f5b740, #e11d48);
+  border: none;
+}
+
+.persona-body {
+  padding: 26px;
+  flex: 1;
+}
+
+.persona-body h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.persona-body p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+/* FEATURED POSTS SECTION */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.post-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.post-card:hover {
+  border-color: var(--border-gold);
+  transform: translateY(-4px);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 24px 14px;
+}
+
+.post-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-gold);
+}
+
+.post-author {
+  flex: 1;
+}
+
+.post-author h4 {
+  font-size: 1.02rem;
+  color: var(--text-primary);
+}
+
+.post-author span {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.post-badge {
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(245, 183, 64, 0.15);
+  color: var(--accent-gold);
+  border: 1px solid var(--border-gold);
+}
+
+.post-content {
+  padding: 6px 24px 18px;
+}
+
+.post-headline {
+  font-size: 1.08rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.post-content p {
+  font-size: 0.94rem;
+  color: var(--text-secondary);
+}
+
+.post-media {
+  height: 340px;
+  overflow: hidden;
+  background: #000;
+}
+
+.post-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  cursor: zoom-in;
+  transition: transform 0.45s ease;
+}
+
+.post-card:hover .post-media img {
+  transform: scale(1.03);
+}
+
+.post-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: auto;
+}
+
+.post-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+/* INTERACTIVE STICKER SECTION */
+.sticker-showcase {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.sticker-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.sticker-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.28s ease;
+  box-shadow: var(--shadow-card);
+}
+
+.sticker-item:hover,
+.sticker-item.active {
+  border-color: var(--accent-gold);
+  background: var(--bg-card-hover);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-glow);
+}
+
+.sticker-sprite {
+  width: 130px;
+  height: 130px;
+  border-radius: 16px;
+  background-image: url('https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/891772640_122144986677178810_7063193152949039608_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s1254x1254&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MMb9_v0CyUwQ7kNvwEMVwV_&_nc_oc=AdrIOCHKYqrGeZwpjeAVgjAb9N7MiFuS_c5oECrvVaidqqZlHNDrQ5IVqZo5qvDvtdE&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQRIU5ZzR0GPPI0APhpfa3EPwS6YOX2AqIrYSF4ct4Ce4w&oe=6AF5CA07');
+  background-size: 300% 300%;
+  background-repeat: no-repeat;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+}
+
+.pos-0 { background-position: 0% 0%; }
+.pos-1 { background-position: 50% 0%; }
+.pos-2 { background-position: 100% 0%; }
+.pos-3 { background-position: 0% 50%; }
+.pos-4 { background-position: 50% 50%; }
+.pos-5 { background-position: 100% 50%; }
+.pos-6 { background-position: 0% 100%; }
+.pos-7 { background-position: 50% 100%; }
+.pos-8 { background-position: 100% 100%; }
+
+.sticker-label {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.sticker-message-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 28px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(245, 183, 64, 0.14), rgba(236, 72, 153, 0.12));
+  border: 1px solid var(--border-gold);
+  box-shadow: var(--shadow-card);
+}
+
+.message-avatar img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-gold);
+}
+
+.message-sender {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+
+.message-content h4 {
+  font-size: 1.22rem;
+  margin: 4px 0 6px;
+  color: var(--text-primary);
+}
+
+.message-content p {
+  color: var(--text-secondary);
+  font-size: 0.98rem;
+}
+
+/* PHILOSOPHY SECTION */
+.philosophy-banner {
+  position: relative;
+  border-radius: 32px;
+  overflow: hidden;
+  padding: 64px 48px;
+  border: 1px solid var(--border-gold);
+  box-shadow: var(--shadow-card);
+}
+
+.philosophy-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.philosophy-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(11, 13, 19, 0.92) 0%, rgba(18, 22, 33, 0.82) 100%);
+  z-index: 1;
+}
+
+.philosophy-content {
+  position: relative;
+  z-index: 2;
+  color: #f8fafc;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.philosophy-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  margin: 10px 0 18px;
+}
+
+.philosophy-text {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  margin-bottom: 40px;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  text-align: left;
+}
+
+.pillar-box {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(12px);
+  padding: 24px;
+  border-radius: 20px;
+}
+
+.pillar-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f5b740;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.pillar-box h4 {
+  font-size: 1.12rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.pillar-box p {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+/* EDUCATION & MILESTONES */
+.milestones-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+}
+
+.edu-card,
+.facts-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  padding: 34px;
+  box-shadow: var(--shadow-card);
+}
+
+.edu-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  border-color: var(--border-gold);
+}
+
+.edu-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: rgba(245, 183, 64, 0.15);
+  border: 1px solid var(--border-gold);
+  color: var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.edu-icon-box svg {
+  width: 32px;
+  height: 32px;
+}
+
+.edu-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.edu-school {
+  font-size: 1.5rem;
+  margin: 6px 0 12px;
+  color: var(--text-primary);
+}
+
+.edu-year-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(236, 72, 153, 0.14);
+  color: var(--accent-lotus-soft);
+  font-size: 0.86rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.edu-desc {
+  color: var(--text-secondary);
+  font-size: 0.96rem;
+  margin-bottom: 18px;
+}
+
+.edu-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--accent-gold);
+}
+
+.edu-link:hover {
+  text-decoration: underline;
+}
+
+.facts-title {
+  font-size: 1.28rem;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.facts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.facts-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.93rem;
+}
+
+.fact-key {
+  color: var(--text-muted);
+}
+
+.fact-val {
+  color: var(--text-primary);
+  text-align: right;
+}
+
+.fact-link {
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+/* PHOTO GALLERY */
+.gallery-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.filter-btn {
+  padding: 9px 20px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.25s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--gradient-brand);
+  color: #fff;
+  border-color: transparent;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.gallery-card {
+  border-radius: 22px;
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.35s ease, border-color 0.35s ease;
+}
+
+.gallery-card.hidden {
+  display: none;
+}
+
+.gallery-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-gold);
+}
+
+.gallery-img-container {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.gallery-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.5s ease;
+}
+
+.gallery-card:hover .gallery-img-container img {
+  transform: scale(1.06);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(11, 13, 19, 0.9) 0%, rgba(11, 13, 19, 0.2) 55%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 22px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-cat {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f5b740;
+  font-weight: 700;
+}
+
+.gallery-overlay h4 {
+  color: #fff;
+  font-size: 1.12rem;
+  margin: 4px 0;
+}
+
+.gallery-zoom-hint {
+  font-size: 0.8rem;
+  color: #cbd5e1;
+}
+
+/* CONNECT SECTION */
+.connect-card {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 32px;
+  padding: 48px;
+  box-shadow: var(--shadow-card), var(--shadow-glow);
+}
+
+.connect-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  margin: 8px 0 16px;
+}
+
+.connect-desc {
+  color: var(--text-secondary);
+  font-size: 1.02rem;
+  margin-bottom: 28px;
+}
+
+.connect-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.fb-preview-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.fb-preview-cover {
+  height: 115px;
+  background-size: cover;
+  background-position: center;
+}
+
+.fb-preview-body {
+  padding: 0 24px 24px;
+  text-align: center;
+  margin-top: -42px;
+}
+
+.fb-preview-avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 12px;
+  border: 3px solid var(--accent-gold);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.fb-preview-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
+.fb-preview-info p {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.fb-id-tag {
+  display: inline-block;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  background: var(--bg-glass);
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid var(--border-subtle);
+  padding: 44px 0;
+  background: var(--bg-secondary);
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-brand p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.footer-links {
+  display: flex;
+  gap: 22px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.footer-links a:hover {
+  color: var(--accent-gold);
+}
+
+.footer-copy {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
+/* LIGHTBOX */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(5, 7, 12, 0.92);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+  padding: 24px;
+}
+
+.lightbox.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-content {
+  max-width: 900px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lightbox-content img {
+  max-height: 76vh;
+  width: auto;
+  border-radius: 16px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+}
+
+.lightbox-caption-bar {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  color: #f8fafc;
+}
+
+.lightbox-fb-btn {
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--accent-fb);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 22px;
+  right: 28px;
+  font-size: 2.4rem;
+  color: #fff;
+  line-height: 1;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.lightbox-nav:hover {
+  background: rgba(245, 183, 64, 0.5);
+}
+
+.lightbox-prev { left: 24px; }
+.lightbox-next { right: 24px; }
+
+/* TOAST & FLOATING EMOJI */
+.toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  padding: 14px 20px;
+  border-radius: 16px;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border-gold);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-card);
+  font-size: 0.92rem;
+  animation: slideInUp 0.3s ease forwards;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.floating-particle {
+  position: fixed;
+  pointer-events: none;
+  z-index: 250;
+  font-size: 1.6rem;
+  animation: particleFly 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes particleFly {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty)) scale(1.35) rotate(var(--rot));
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .hero-grid,
+  .milestones-layout,
+  .connect-card {
+    grid-template-columns: 1fr;
+  }
+
+  .persona-grid,
+  .gallery-grid,
+  .pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 76px;
+    left: 0;
+    right: 0;
+    background: var(--bg-secondary);
+    flex-direction: column;
+    padding: 24px;
+    border-bottom: 1px solid var(--border-subtle);
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 640px) {
+  .persona-grid,
+  .gallery-grid,
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sticker-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .sticker-sprite {
+    width: 86px;
+    height: 86px;
+  }
+
+  .sticker-message-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .edu-card {
+    flex-direction: column;
+  }
+
+  .connect-card,
+  .philosophy-banner {
+    padding: 28px 20px;
+  }
+
+  .card-top-left,
+  .card-bottom-right {
+    display: none;
+  }
+}
+
+</style>
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="glow glow-gold"></div>
+    <div class="glow glow-lotus"></div>
+    <div class="glow glow-sun"></div>
+  </div>
+
+  <!-- Sticky Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand-logo" aria-label="Kimi Trần Trang chủ">
+        <span class="brand-signature">Kimi Trần</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Điều hướng chính">
+        <a href="#gioi-thieu" class="nav-link">Giới thiệu</a>
+        <a href="#bai-viet" class="nav-link">Chia sẻ nổi bật</a>
+        <a href="#goc-cam-xuc" class="nav-link">Góc cảm xúc</a>
+        <a href="#dau-an" class="nav-link">Học vấn & Hồ sơ</a>
+        <a href="#bo-suu-tap" class="nav-link">Bộ sưu tập</a>
+        <a href="#ket-noi" class="nav-link">Kết nối</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" title="Chuyển đổi giao diện Sáng / Tối" aria-label="Chuyển đổi giao diện Sáng / Tối">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="https://www.facebook.com/profile.php?id=61585364303028" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <svg class="icon-fb" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+          </svg>
+          <span>Facebook</span>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Mở menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-cover-wrapper">
+        <div class="hero-cover-image" style="background-image: url('https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/600364028_122093815011178810_7405312859436371879_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1280&ctp=s2048x1280&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aScWOEGMJNMQ7kNvwF1zVnM&_nc_oc=AdrxJE3ro7hm3aBvM-WeTI0JhVtVl0_15-eJ0AFmm2CGBuXrYIuiFUNT5U84y7Kk204&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQkT_cpYCTltBjEkQz2Ajs2UKfCYRi4F_WLHYVeVp_KNg&oe=6AF5B375');" role="img" aria-label="Ảnh bìa bình minh rực rỡ của Kimi Trần"></div>
+        <div class="hero-cover-overlay"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-grid">
+          <!-- Left Column: Intro Text -->
+          <div class="hero-content reveal-up">
+            <div class="status-pill">
+              <span class="pulse-dot"></span>
+              <span>Good Vibes • Sáng Tạo & Tràn Đầy Năng Lượng</span>
+            </div>
+
+            <h1 class="hero-title">
+              Xin chào, tôi là <br />
+              <span class="hero-name-highlight">Kimi Trần</span>
+              <span class="hero-calligraphy" aria-hidden="true">Kimi Trần</span>
+            </h1>
+
+            <p class="hero-lead">
+              Chào mừng bạn đến với không gian cá nhân của <strong>Kimi Trần</strong>. Nơi lưu giữ những khoảnh khắc đẹp, lan tỏa nguồn năng lượng tích cực, lòng biết ơn, đam mê khám phá công nghệ AI sáng tạo và phong thái sống thanh lịch mỗi ngày.
+            </p>
+
+            <blockquote class="hero-quote">
+              “Hãy bắt đầu mỗi ngày mới, tháng mới với một <strong>trái tim biết ơn</strong>, một <strong>tâm thế tích cực</strong> và những <strong>mục tiêu đẹp đẽ</strong>!”
+            </blockquote>
+
+            <div class="hero-badges">
+              <div class="badge-item">
+                <span class="badge-icon">🎓</span>
+                <div>
+                  <small>Cựu học sinh</small>
+                  <strong>THPT Nguyễn Trãi (Khóa 1995)</strong>
+                </div>
+              </div>
+              <div class="badge-item">
+                <span class="badge-icon">✨</span>
+                <div>
+                  <small>Phong cách & Đam mê</small>
+                  <strong>Thanh lịch • Sáng tạo AI • Good Vibes</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-cta-group">
+              <a href="https://www.facebook.com/profile.php?id=61585364303028" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                <svg class="icon-fb" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                </svg>
+                <span>Kết nối trên Facebook</span>
+              </a>
+              <a href="#bo-suu-tap" class="btn btn-glass btn-lg">
+                <span>Xem Bộ Sưu Tập Ảnh</span>
+              </a>
+              <button type="button" class="btn btn-outline btn-lg" id="sendWaveBtn">
+                <span>👋 Gửi lời chào</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column: Signature Lotus Portrait Card -->
+          <div class="hero-visual reveal-scale">
+            <div class="portrait-frame">
+              <div class="portrait-glow"></div>
+              <img
+                src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720"
+                alt="Chân dung nghệ thuật Kimi Trần bên hoa sen"
+                class="portrait-img"
+                data-lightbox="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720"
+                data-caption="Chân dung nghệ thuật Kimi Trần — Sự giao thoa giữa nét đẹp truyền thống hoa sen và thần thái rạng rỡ, hiện đại."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122145102879178810"
+              />
+              <div class="portrait-floating-card card-top-left">
+                <span class="floating-emoji">🪷</span>
+                <div>
+                  <strong>Tâm An & Biết Ơn</strong>
+                  <span>Vẻ đẹp từ sự chân thành</span>
+                </div>
+              </div>
+              <div class="portrait-floating-card card-bottom-right">
+                <span class="floating-emoji">☀️</span>
+                <div>
+                  <strong>#KimiTran</strong>
+                  <span>Good Vibes Only</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & PERSONA SECTION -->
+    <section class="section about-section" id="gioi-thieu">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-subtitle">CHÂN DUNG & PHONG THÁI</span>
+          <h2 class="section-title">Đa sắc màu trong một <span class="text-gradient">Kimi Trần</span></h2>
+          <p class="section-desc">
+            Sự kết hợp hài hòa giữa phong thái chuyên nghiệp, tư duy cởi mở đón nhận công nghệ mới và trái tim ấm áp luôn hướng về những giá trị tích cực.
+          </p>
+        </div>
+
+        <div class="persona-grid">
+          <!-- Card 1: Executive & Professional -->
+          <article class="persona-card reveal-up">
+            <div class="persona-img-wrap">
+              <img
+                src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/778928638_122135906235178810_7669509028955220106_n.png?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=s1086x1086&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=e96wlOFsXXkQ7kNvwHCCNXh&_nc_oc=AdqUHOguXzgFM0Q9LagfrL_sfpXUn4F-kU-yiqMx_DLqAl5poA-o6hjTdt5ODr3RV0w&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQSpjL_8ddLUHCR_56RCooWt7AzPjr5ATkwKgrcMGm_sQ&oe=6AF5B742"
+                alt="Kimi Trần phong thái doanh nhân chuyên nghiệp"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/778928638_122135906235178810_7669509028955220106_n.png?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=s1086x1086&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=e96wlOFsXXkQ7kNvwHCCNXh&_nc_oc=AdqUHOguXzgFM0Q9LagfrL_sfpXUn4F-kU-yiqMx_DLqAl5poA-o6hjTdt5ODr3RV0w&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQSpjL_8ddLUHCR_56RCooWt7AzPjr5ATkwKgrcMGm_sQ&oe=6AF5B742"
+                data-caption="Phong thái chuyên nghiệp, bản lĩnh và tự tin."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122135906229178810"
+              />
+              <span class="persona-tag">Chuyên nghiệp & Bản lĩnh</span>
+            </div>
+            <div class="persona-body">
+              <h3>Phong Thái Tự Tin & Hiện Đại</h3>
+              <p>
+                Luôn hướng tới sự chỉn chu, chuẩn mực và tinh thần cầu tiến. Hình ảnh người phụ nữ hiện đại, độc lập, điềm tĩnh và truyền cảm hứng qua từng hành động.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2: Positive Energy & Morning Vibes -->
+          <article class="persona-card persona-card-featured reveal-up">
+            <div class="persona-img-wrap">
+              <img
+                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/874268861_122144464905178810_3197793709532367330_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1671&ctp=s941x1671&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pw_KerZRD7oQ7kNvwGxkb00&_nc_oc=Adq3zUE257wN0s23k4dbPgkBK7iBCB7V6llUJDwDQaT0_SmkdYMn8NDpQynik4HbMBo&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSpeSfe_ZzzGAKDCcNur2tF33cBxeVV0Dix-8PbXnRkPA&oe=6AF5E64E"
+                alt="Kimi Trần Chào ngày mới tháng mới tràn đầy năng lượng"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/874268861_122144464905178810_3197793709532367330_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1671&ctp=s941x1671&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pw_KerZRD7oQ7kNvwGxkb00&_nc_oc=Adq3zUE257wN0s23k4dbPgkBK7iBCB7V6llUJDwDQaT0_SmkdYMn8NDpQynik4HbMBo&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSpeSfe_ZzzGAKDCcNur2tF33cBxeVV0Dix-8PbXnRkPA&oe=6AF5E64E"
+                data-caption="Chào ngày mới, tháng mới! Tràn đầy năng lượng! Chúc bạn một tháng mới an lành, hạnh phúc và thành công!"
+                data-fb-url="https://www.facebook.com/photo/?fbid=122144464899178810"
+              />
+              <span class="persona-tag tag-gold">Good Vibes • Truyền cảm hứng</span>
+            </div>
+            <div class="persona-body">
+              <h3>Nguồn Năng Lượng Tích Cực</h3>
+              <p>
+                Đón nhận mỗi ngày mới, tháng mới như một cơ hội để sống vui hơn và yêu thương nhiều hơn. Với cốc <em>“Good Vibes”</em> và sắc hoa hướng dương, Kimi luôn lan tỏa lời chúc an lành đến mọi người.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3: Warmth & Elegance -->
+          <article class="persona-card reveal-up">
+            <div class="persona-img-wrap">
+              <img
+                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/598867573_122093812575178810_5122160545791604784_n.jpg?stp=dst-jpg_tt6&cstp=mx912x1168&ctp=s912x1168&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=O1oV65s4ZrkQ7kNvwGDQRXX&_nc_oc=AdpIV2Iz0G4IdX7rtYkBkV2nrtwqi4HakRCnyZSmnDwnF8dJbCrG7FRgUTJLtXNytww&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQS3UPRFZBK8QK31De_X7yvwCHW8zIfz4Jr9u4R8m4Pk2g&oe=6AF5DF7A"
+                alt="Kimi Trần ấm áp và dịu dàng"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/598867573_122093812575178810_5122160545791604784_n.jpg?stp=dst-jpg_tt6&cstp=mx912x1168&ctp=s912x1168&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=O1oV65s4ZrkQ7kNvwGDQRXX&_nc_oc=AdpIV2Iz0G4IdX7rtYkBkV2nrtwqi4HakRCnyZSmnDwnF8dJbCrG7FRgUTJLtXNytww&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQS3UPRFZBK8QK31De_X7yvwCHW8zIfz4Jr9u4R8m4Pk2g&oe=6AF5DF7A"
+                data-caption="Khoảnh khắc ấm áp, dịu dàng và gần gũi (#KimiTran)."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122093812569178810"
+              />
+              <span class="persona-tag">Ấm áp & Gần gũi</span>
+            </div>
+            <div class="persona-body">
+              <h3>Sự Dịu Dàng & Chân Thành</h3>
+              <p>
+                Trân trọng những khoảnh khắc bình yên, tình cảm gia đình, bè bạn và luôn giữ nét duyên dáng, đằm thắm trong cuộc sống đời thường.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED FACEBOOK POSTS SECTION -->
+    <section class="section posts-section" id="bai-viet">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-subtitle">NHẬT KÝ & CHIA SẺ TRÊN FACEBOOK</span>
+          <h2 class="section-title">Bài Viết & <span class="text-gradient">Cảm Hứng Nổi Bật</span></h2>
+          <p class="section-desc">
+            Những bài chia sẻ giàu năng lượng và sáng tạo công nghệ trên dòng thời gian của Kimi Trần.
+          </p>
+        </div>
+
+        <div class="posts-grid">
+          <!-- Post 1: New Month Inspiration -->
+          <article class="post-card reveal-up">
+            <div class="post-header">
+              <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720" alt="Kimi Trần" class="post-avatar" />
+              <div class="post-author">
+                <h4>Kimi Trần</h4>
+                <span>Chia sẻ truyền cảm hứng • Facebook</span>
+              </div>
+              <span class="post-badge">🌻 Tháng Mới</span>
+            </div>
+            <div class="post-content">
+              <h3 class="post-headline">🌻 THÁNG MỚI RỒI! BẠN MUỐN ĐIỀU GÌ TỐT ĐẸP SẼ ĐẾN VỚI MÌNH? ✨</h3>
+              <p>
+                “Một tháng mới bắt đầu, cũng là một cơ hội mới để chúng ta sống vui hơn, yêu thương nhiều hơn… Hãy bắt đầu tháng mới với một trái tim biết ơn, một tâm thế tích cực và những mục tiêu đẹp đẽ! Chúc bạn một tháng mới an lành, hạnh phúc và thành công!”
+              </p>
+            </div>
+            <div class="post-media">
+              <img
+                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/874268861_122144464905178810_3197793709532367330_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1671&ctp=s941x1671&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pw_KerZRD7oQ7kNvwGxkb00&_nc_oc=Adq3zUE257wN0s23k4dbPgkBK7iBCB7V6llUJDwDQaT0_SmkdYMn8NDpQynik4HbMBo&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSpeSfe_ZzzGAKDCcNur2tF33cBxeVV0Dix-8PbXnRkPA&oe=6AF5E64E"
+                alt="Chào ngày mới tháng mới"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/874268861_122144464905178810_3197793709532367330_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1671&ctp=s941x1671&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pw_KerZRD7oQ7kNvwGxkb00&_nc_oc=Adq3zUE257wN0s23k4dbPgkBK7iBCB7V6llUJDwDQaT0_SmkdYMn8NDpQynik4HbMBo&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSpeSfe_ZzzGAKDCcNur2tF33cBxeVV0Dix-8PbXnRkPA&oe=6AF5E64E"
+                data-caption="🌻 THÁNG MỚI RỒI! BẠN MUỐN ĐIỀU GÌ TỐT ĐẸP SẼ ĐẾN VỚI MÌNH? ✨"
+                data-fb-url="https://www.facebook.com/photo/?fbid=122144464899178810"
+              />
+            </div>
+            <div class="post-footer">
+              <a href="https://www.facebook.com/photo/?fbid=122144464899178810" target="_blank" rel="noopener noreferrer" class="post-link">
+                <span>Xem bài viết trên Facebook</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Post 2: AI Sticker Creation -->
+          <article class="post-card reveal-up">
+            <div class="post-header">
+              <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720" alt="Kimi Trần" class="post-avatar" />
+              <div class="post-author">
+                <h4>Kimi Trần</h4>
+                <span>Sáng tạo cùng AI • Facebook</span>
+              </div>
+              <span class="post-badge">🎁 Sáng tạo AI</span>
+            </div>
+            <div class="post-content">
+              <h3 class="post-headline">🎁 BẠN CÓ MUỐN SỞ HỮU MỘT BỘ STICKER MANG CHÍNH KHUÔN MẶT CỦA MÌNH KHÔNG? 😍</h3>
+              <p>
+                “Hôm nay, tôi vừa thử nghiệm tính năng tạo ảnh mới của ChatGPT… để tạo nên bộ 9 sticker mang chính khuôn mặt và những biểu cảm tích cực thường ngày: <em>Xin chào, Cảm ơn bạn, Thả tim nè, Chúc mừng, Cố lên nhé, Biết ơn bạn, Tạm biệt nhé, Dễ thương quá, Have a nice day!</em>”
+              </p>
+            </div>
+            <div class="post-media">
+              <img
+                src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/891772640_122144986677178810_7063193152949039608_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s1254x1254&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MMb9_v0CyUwQ7kNvwEMVwV_&_nc_oc=AdrIOCHKYqrGeZwpjeAVgjAb9N7MiFuS_c5oECrvVaidqqZlHNDrQ5IVqZo5qvDvtdE&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQRIU5ZzR0GPPI0APhpfa3EPwS6YOX2AqIrYSF4ct4Ce4w&oe=6AF5CA07"
+                alt="Bộ Sticker Kimi Trần"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/891772640_122144986677178810_7063193152949039608_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s1254x1254&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MMb9_v0CyUwQ7kNvwEMVwV_&_nc_oc=AdrIOCHKYqrGeZwpjeAVgjAb9N7MiFuS_c5oECrvVaidqqZlHNDrQ5IVqZo5qvDvtdE&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQRIU5ZzR0GPPI0APhpfa3EPwS6YOX2AqIrYSF4ct4Ce4w&oe=6AF5CA07"
+                data-caption="🎁 Bộ Sticker 9 biểu cảm cá nhân hóa được Kimi Trần sáng tạo cùng AI."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122144986671178810"
+              />
+            </div>
+            <div class="post-footer">
+              <a href="https://www.facebook.com/photo/?fbid=122144986671178810" target="_blank" rel="noopener noreferrer" class="post-link">
+                <span>Xem bài viết trên Facebook</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE STICKER / EXPRESSION WALL -->
+    <section class="section sticker-section" id="goc-cam-xuc">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-subtitle">TRẢI NGHIỆM BỘ STICKER ĐỘC QUYỀN</span>
+          <h2 class="section-title">Góc Cảm Xúc & <span class="text-gradient">Lời Chúc Tích Cực</span></h2>
+          <p class="section-desc">
+            Chạm vào bất kỳ sticker nào trong 9 biểu cảm của Kimi Trần bên dưới để nhận ngay một lời chúc may mắn và hiệu ứng pháo hoa cảm xúc!
+          </p>
+        </div>
+
+        <div class="sticker-showcase reveal-up">
+          <!-- Interactive 3x3 Sticker Selector powered by CSS Sprite of photo_1.jpg -->
+          <div class="sticker-grid" id="stickerGrid">
+            <button type="button" class="sticker-item active" data-index="0" data-emoji="👋" data-title="Xin Chào!" data-msg="Xin chào bạn! Chúc bạn một ngày mới thật nhiều niềm vui, may mắn và tràn đầy năng lượng nhé! 👋✨">
+              <div class="sticker-sprite pos-0"></div>
+              <span class="sticker-label">Xin Chào!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="1" data-emoji="💖" data-title="Cảm ơn bạn!" data-msg="Cảm ơn bạn thật nhiều vì đã ghé thăm không gian cá nhân của Kimi Trần! Chúc bạn luôn hạnh phúc! 🫶💖">
+              <div class="sticker-sprite pos-1"></div>
+              <span class="sticker-label">Cảm ơn bạn!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="2" data-emoji="❤️" data-title="Thả tim nè!" data-msg="Thả tim nè! Gửi ngàn yêu thương và nguồn năng lượng ấm áp nhất đến bạn! ❤️😘">
+              <div class="sticker-sprite pos-2"></div>
+              <span class="sticker-label">Thả tim nè!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="3" data-emoji="🏆" data-title="Chúc mừng!" data-msg="Chúc mừng những nỗ lực và thành tựu tuyệt vời của bạn! Hãy tiếp tục tỏa sáng rực rỡ nhé! 🏆🎉">
+              <div class="sticker-sprite pos-3"></div>
+              <span class="sticker-label">Chúc mừng!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="4" data-emoji="💪" data-title="Cố lên nhé!" data-msg="Cố lên nhé! Mọi mục tiêu đẹp đẽ đều bắt đầu từ sự kiên trì và niềm tin vững vàng ngày hôm nay! 💪🌟">
+              <div class="sticker-sprite pos-4"></div>
+              <span class="sticker-label">Cố lên nhé!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="5" data-emoji="🪷" data-title="Biết ơn bạn!" data-msg="Biết ơn bạn! Khi bắt đầu mỗi ngày với một trái tim biết ơn, bình an và may mắn sẽ luôn mỉm cười với bạn. 🪷🙏">
+              <div class="sticker-sprite pos-5"></div>
+              <span class="sticker-label">Biết ơn bạn!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="6" data-emoji="😊" data-title="Tạm biệt nhé!" data-msg="Tạm biệt nhé & hẹn gặp lại bạn sớm! Đừng quên kết nối với Kimi trên Facebook nha! 👋😊">
+              <div class="sticker-sprite pos-6"></div>
+              <span class="sticker-label">Tạm biệt nhé!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="7" data-emoji="🌸" data-title="Dễ thương quá!" data-msg="Dễ thương quá! Nụ cười rạng rỡ chính là món quà tuyệt vời nhất bạn dành tặng chính mình và thế giới! 💕🌸">
+              <div class="sticker-sprite pos-7"></div>
+              <span class="sticker-label">Dễ thương quá!</span>
+            </button>
+            <button type="button" class="sticker-item" data-index="8" data-emoji="☀️" data-title="Have a nice day!" data-msg="Have a nice day! Nhâm nhi một tách cà phê thơm ngon và tận hưởng một ngày thật trọn vẹn nhé! ☕☀️">
+              <div class="sticker-sprite pos-8"></div>
+              <span class="sticker-label">Have a nice day!</span>
+            </button>
+          </div>
+
+          <!-- Active Message Display Card -->
+          <div class="sticker-message-box" id="stickerMessageBox">
+            <div class="message-avatar">
+              <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720" alt="Kimi Trần" />
+            </div>
+            <div class="message-content">
+              <span class="message-sender">Thông điệp từ Kimi Trần</span>
+              <h4 id="stickerMsgTitle">Xin Chào! 👋</h4>
+              <p id="stickerMsgBody">Xin chào bạn! Chúc bạn một ngày mới thật nhiều niềm vui, may mắn và tràn đầy năng lượng nhé! 👋✨</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIFE PHILOSOPHY SECTION -->
+    <section class="section philosophy-section" id="triet-ly">
+      <div class="container">
+        <div class="philosophy-banner reveal-up">
+          <div class="philosophy-bg" style="background-image: url('https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/600364028_122093815011178810_7405312859436371879_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1280&ctp=s2048x1280&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aScWOEGMJNMQ7kNvwF1zVnM&_nc_oc=AdrxJE3ro7hm3aBvM-WeTI0JhVtVl0_15-eJ0AFmm2CGBuXrYIuiFUNT5U84y7Kk204&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQkT_cpYCTltBjEkQz2Ajs2UKfCYRi4F_WLHYVeVp_KNg&oe=6AF5B375');"></div>
+          <div class="philosophy-overlay"></div>
+
+          <div class="philosophy-content">
+            <span class="section-subtitle">TRIẾT LÝ SỐNG CỦA KIMI TRẦN</span>
+            <h2 class="philosophy-heading">
+              “Bắt đầu mỗi hành trình bằng <span class="text-gold">Trái Tim Biết Ơn</span>”
+            </h2>
+            <p class="philosophy-text">
+              Ánh mặt trời buổi sớm luôn mang theo hy vọng mới. Khi ta giữ cho mình một tâm thế tích cực, biết ơn những điều đang có và kiên định với những mục tiêu đẹp đẽ, bình an và thành công sẽ tự nhiên tìm đến.
+            </p>
+
+            <div class="pillars-grid">
+              <div class="pillar-box">
+                <div class="pillar-num">01</div>
+                <h4>Trái Tim Biết Ơn</h4>
+                <p>Trân trọng từng khoảnh khắc, từng cuộc gặp gỡ và những điều tốt đẹp hiện diện trong cuộc đời.</p>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-num">02</div>
+                <h4>Tâm Thế Tích Cực</h4>
+                <p>Chọn nụ cười và góc nhìn lạc quan trước mọi thử thách, lan tỏa “Good Vibes” tới cộng đồng.</p>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-num">03</div>
+                <h4>Mục Tiêu Đẹp Đẽ</h4>
+                <p>Không ngừng học hỏi, khám phá cái mới và kiến tạo những giá trị ý nghĩa cho cuộc sống.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & MILESTONES SECTION -->
+    <section class="section milestones-section" id="dau-an">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-subtitle">HỌC VẤN & THÔNG TIN HỒ SƠ</span>
+          <h2 class="section-title">Dấu Ấn & <span class="text-gradient">Nền Tảng</span></h2>
+          <p class="section-desc">Thông tin được trích xuất trực tiếp từ hồ sơ Facebook chính thức của Kimi Trần.</p>
+        </div>
+
+        <div class="milestones-layout">
+          <!-- Education Highlight Card -->
+          <div class="edu-card reveal-up">
+            <div class="edu-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <div class="edu-details">
+              <span class="edu-label">Trường Trung Học Phổ Thông</span>
+              <h3 class="edu-school">Đã học tại Trường THPT Nguyễn Trãi</h3>
+              <p class="edu-meta">
+                <span class="edu-year-badge">🎓 Tốt nghiệp năm 1995</span>
+              </p>
+              <p class="edu-desc">
+                Mái trường THPT Nguyễn Trãi là nơi lưu giữ những kỷ niệm thanh xuân tươi đẹp, tình thầy trò và những người bạn đồng trang lứa gắn bó qua nhiều thập kỷ.
+              </p>
+              <a
+                href="https://www.facebook.com/Tr%C6%B0%E1%BB%9Dng-Trung-H%E1%BB%8Dc-Ph%E1%BB%95-Th%C3%B4ng-Nguy%E1%BB%85n-Tr%C3%A3i-249366145534839/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="edu-link"
+              >
+                <span>Xem trang Trường THPT Nguyễn Trãi trên Facebook</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Profile Quick Facts Card -->
+          <div class="facts-card reveal-up">
+            <h3 class="facts-title">Thông Tin Hồ Sơ</h3>
+            <ul class="facts-list">
+              <li>
+                <span class="fact-key">Họ và tên hiển thị</span>
+                <strong class="fact-val">Kimi Trần</strong>
+              </li>
+              <li>
+                <span class="fact-key">Dấu ấn cá nhân</span>
+                <strong class="fact-val">#KimiTran • Good Vibes</strong>
+              </li>
+              <li>
+                <span class="fact-key">Trường trung học</span>
+                <strong class="fact-val">THPT Nguyễn Trãi (Khóa 1995)</strong>
+              </li>
+              <li>
+                <span class="fact-key">Biểu tượng yêu thích</span>
+                <strong class="fact-val">Hoa Sen 🪷 • Hướng Dương 🌻 • Bình Minh ☀️</strong>
+              </li>
+              <li>
+                <span class="fact-key">Liên kết Facebook</span>
+                <a href="https://www.facebook.com/profile.php?id=61585364303028" target="_blank" rel="noopener noreferrer" class="fact-link">
+                  facebook.com/Kimi-Trần ↗
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY SECTION -->
+    <section class="section gallery-section" id="bo-suu-tap">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-subtitle">THƯ VIỆN HÌNH ẢNH FACEBOOK</span>
+          <h2 class="section-title">Khoảnh Khắc & <span class="text-gradient">Bộ Sưu Tập</span></h2>
+          <p class="section-desc">
+            Toàn bộ hình ảnh độ phân giải cao từ trang Facebook cá nhân của Kimi Trần. Nhấn vào từng ảnh để xem kích thước đầy đủ.
+          </p>
+
+          <div class="gallery-filters" role="tablist" aria-label="Bộ lọc ảnh">
+            <button type="button" class="filter-btn active" data-filter="all">Tất cả (6)</button>
+            <button type="button" class="filter-btn" data-filter="portrait">Chân dung & Phong cách</button>
+            <button type="button" class="filter-btn" data-filter="inspiration">Truyền cảm hứng & Sáng tạo</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Photo 1: Avatar Lotus -->
+          <figure class="gallery-card reveal-up" data-category="portrait">
+            <div class="gallery-img-container">
+              <img
+                src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720"
+                alt="Chân dung Kimi Trần bên hoa sen"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720"
+                data-caption="Ảnh đại diện Kimi Trần — Nụ cười rạng rỡ bên hoa sen hồng trong sương sớm."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122145102879178810"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">Ảnh Đại Diện</span>
+                <h4>Sen Hồng & Nụ Cười Rạng Rỡ</h4>
+                <span class="gallery-zoom-hint">🔍 Nhấn để phóng to</span>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Photo 2: Executive Suit -->
+          <figure class="gallery-card reveal-up" data-category="portrait">
+            <div class="gallery-img-container">
+              <img
+                src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/778928638_122135906235178810_7669509028955220106_n.png?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=s1086x1086&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=e96wlOFsXXkQ7kNvwHCCNXh&_nc_oc=AdqUHOguXzgFM0Q9LagfrL_sfpXUn4F-kU-yiqMx_DLqAl5poA-o6hjTdt5ODr3RV0w&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQSpjL_8ddLUHCR_56RCooWt7AzPjr5ATkwKgrcMGm_sQ&oe=6AF5B742"
+                alt="Chân dung công sở Kimi Trần"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/778928638_122135906235178810_7669509028955220106_n.png?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=s1086x1086&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=e96wlOFsXXkQ7kNvwHCCNXh&_nc_oc=AdqUHOguXzgFM0Q9LagfrL_sfpXUn4F-kU-yiqMx_DLqAl5poA-o6hjTdt5ODr3RV0w&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQSpjL_8ddLUHCR_56RCooWt7AzPjr5ATkwKgrcMGm_sQ&oe=6AF5B742"
+                data-caption="Phong thái doanh nhân chuyên nghiệp, tự tin và thanh lịch."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122135906229178810"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">Chân Dung</span>
+                <h4>Phong Thái Chuyên Nghiệp</h4>
+                <span class="gallery-zoom-hint">🔍 Nhấn để phóng to</span>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Photo 3: Good Vibes Morning Poster -->
+          <figure class="gallery-card reveal-up" data-category="inspiration">
+            <div class="gallery-img-container">
+              <img
+                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/874268861_122144464905178810_3197793709532367330_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1671&ctp=s941x1671&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pw_KerZRD7oQ7kNvwGxkb00&_nc_oc=Adq3zUE257wN0s23k4dbPgkBK7iBCB7V6llUJDwDQaT0_SmkdYMn8NDpQynik4HbMBo&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSpeSfe_ZzzGAKDCcNur2tF33cBxeVV0Dix-8PbXnRkPA&oe=6AF5E64E"
+                alt="Chào ngày mới tháng mới tràn đầy năng lượng"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/874268861_122144464905178810_3197793709532367330_n.jpg?stp=dst-jpg_tt6&cstp=mx941x1671&ctp=s941x1671&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Pw_KerZRD7oQ7kNvwGxkb00&_nc_oc=Adq3zUE257wN0s23k4dbPgkBK7iBCB7V6llUJDwDQaT0_SmkdYMn8NDpQynik4HbMBo&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSpeSfe_ZzzGAKDCcNur2tF33cBxeVV0Dix-8PbXnRkPA&oe=6AF5E64E"
+                data-caption="Chào ngày mới, tháng mới! Tràn đầy năng lượng! Hãy bắt đầu tháng mới với một trái tim biết ơn, một tâm thế tích cực và những mục tiêu đẹp đẽ!"
+                data-fb-url="https://www.facebook.com/photo/?fbid=122144464899178810"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">Truyền Cảm Hứng</span>
+                <h4>Chào Ngày Mới, Tháng Mới</h4>
+                <span class="gallery-zoom-hint">🔍 Nhấn để phóng to</span>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Photo 4: Warm Red Sweater Portrait -->
+          <figure class="gallery-card reveal-up" data-category="portrait">
+            <div class="gallery-img-container">
+              <img
+                src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/598867573_122093812575178810_5122160545791604784_n.jpg?stp=dst-jpg_tt6&cstp=mx912x1168&ctp=s912x1168&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=O1oV65s4ZrkQ7kNvwGDQRXX&_nc_oc=AdpIV2Iz0G4IdX7rtYkBkV2nrtwqi4HakRCnyZSmnDwnF8dJbCrG7FRgUTJLtXNytww&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQS3UPRFZBK8QK31De_X7yvwCHW8zIfz4Jr9u4R8m4Pk2g&oe=6AF5DF7A"
+                alt="Chân dung Kimi Trần áo đỏ ấm áp"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/598867573_122093812575178810_5122160545791604784_n.jpg?stp=dst-jpg_tt6&cstp=mx912x1168&ctp=s912x1168&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=O1oV65s4ZrkQ7kNvwGDQRXX&_nc_oc=AdpIV2Iz0G4IdX7rtYkBkV2nrtwqi4HakRCnyZSmnDwnF8dJbCrG7FRgUTJLtXNytww&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQS3UPRFZBK8QK31De_X7yvwCHW8zIfz4Jr9u4R8m4Pk2g&oe=6AF5DF7A"
+                data-caption="Nét đẹp dịu dàng, đằm thắm trong ánh đèn lung linh (#KimiTran)."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122093812569178810"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">Chân Dung</span>
+                <h4>Khoảnh Khắc Ấm Áp #KimiTran</h4>
+                <span class="gallery-zoom-hint">🔍 Nhấn để phóng to</span>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Photo 5: 9-Sticker Collection -->
+          <figure class="gallery-card reveal-up" data-category="inspiration">
+            <div class="gallery-img-container">
+              <img
+                src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/891772640_122144986677178810_7063193152949039608_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s1254x1254&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MMb9_v0CyUwQ7kNvwEMVwV_&_nc_oc=AdrIOCHKYqrGeZwpjeAVgjAb9N7MiFuS_c5oECrvVaidqqZlHNDrQ5IVqZo5qvDvtdE&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQRIU5ZzR0GPPI0APhpfa3EPwS6YOX2AqIrYSF4ct4Ce4w&oe=6AF5CA07"
+                alt="Bộ biểu cảm tích cực của Kimi Trần"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/891772640_122144986677178810_7063193152949039608_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s1254x1254&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MMb9_v0CyUwQ7kNvwEMVwV_&_nc_oc=AdrIOCHKYqrGeZwpjeAVgjAb9N7MiFuS_c5oECrvVaidqqZlHNDrQ5IVqZo5qvDvtdE&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQRIU5ZzR0GPPI0APhpfa3EPwS6YOX2AqIrYSF4ct4Ce4w&oe=6AF5CA07"
+                data-caption="Bộ 9 biểu cảm năng lượng tích cực của Kimi Trần: Xin chào, Cảm ơn, Thả tim, Chúc mừng, Cố lên, Biết ơn, Tạm biệt, Dễ thương, Have a nice day!"
+                data-fb-url="https://www.facebook.com/photo/?fbid=122144986671178810"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">Sáng Tạo AI</span>
+                <h4>Bộ 9 Sticker Cảm Xúc Kimi Trần</h4>
+                <span class="gallery-zoom-hint">🔍 Nhấn để phóng to</span>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Photo 6: Sunrise Halo Cover Photo -->
+          <figure class="gallery-card reveal-up" data-category="inspiration">
+            <div class="gallery-img-container">
+              <img
+                src="https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/600364028_122093815011178810_7405312859436371879_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1280&ctp=s2048x1280&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aScWOEGMJNMQ7kNvwF1zVnM&_nc_oc=AdrxJE3ro7hm3aBvM-WeTI0JhVtVl0_15-eJ0AFmm2CGBuXrYIuiFUNT5U84y7Kk204&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQkT_cpYCTltBjEkQz2Ajs2UKfCYRi4F_WLHYVeVp_KNg&oe=6AF5B375"
+                alt="Ảnh bìa bình minh rực rỡ"
+                loading="lazy"
+                data-lightbox="https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/600364028_122093815011178810_7405312859436371879_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1280&ctp=s2048x1280&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aScWOEGMJNMQ7kNvwF1zVnM&_nc_oc=AdrxJE3ro7hm3aBvM-WeTI0JhVtVl0_15-eJ0AFmm2CGBuXrYIuiFUNT5U84y7Kk204&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQkT_cpYCTltBjEkQz2Ajs2UKfCYRi4F_WLHYVeVp_KNg&oe=6AF5B375"
+                data-caption="Ảnh bìa Facebook Kimi Trần — Ánh hào quang bình minh rực rỡ trên cánh đồng xanh."
+                data-fb-url="https://www.facebook.com/photo/?fbid=122093815005178810"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">Thiên Nhiên & Ánh Sáng</span>
+                <h4>Hào Quang Ngày Mới</h4>
+                <span class="gallery-zoom-hint">🔍 Nhấn để phóng to</span>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONNECT & CONTACT SECTION -->
+    <section class="section connect-section" id="ket-noi">
+      <div class="container">
+        <div class="connect-card reveal-up">
+          <div class="connect-left">
+            <span class="section-subtitle">KẾT NỐI TRỰC TIẾP</span>
+            <h2 class="connect-title">Giữ Liên Lạc Cùng <span class="text-gradient">Kimi Trần</span></h2>
+            <p class="connect-desc">
+              Hãy kết nối với Kimi Trần trên Facebook để cùng chia sẻ những câu chuyện ý nghĩa, những khoảnh khắc đẹp và nguồn năng lượng tích cực mỗi ngày!
+            </p>
+
+            <div class="connect-actions">
+              <a
+                href="https://www.facebook.com/profile.php?id=61585364303028"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-lg"
+              >
+                <svg class="icon-fb" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                </svg>
+                <span>Mở Trang Facebook Cá Nhân</span>
+              </a>
+
+              <button type="button" class="btn btn-glass btn-lg" id="copyProfileLinkBtn" data-url="https://www.facebook.com/profile.php?id=61585364303028">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span id="copyBtnText">Sao chép liên kết Facebook</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="connect-right">
+            <div class="fb-preview-card">
+              <div class="fb-preview-cover" style="background-image: url('https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/600364028_122093815011178810_7405312859436371879_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1280&ctp=s2048x1280&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aScWOEGMJNMQ7kNvwF1zVnM&_nc_oc=AdrxJE3ro7hm3aBvM-WeTI0JhVtVl0_15-eJ0AFmm2CGBuXrYIuiFUNT5U84y7Kk204&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQQkT_cpYCTltBjEkQz2Ajs2UKfCYRi4F_WLHYVeVp_KNg&oe=6AF5B375');"></div>
+              <div class="fb-preview-body">
+                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/897152388_122145102819178810_150350595211787771_n.jpg?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFEBdYpNr9wQ7kNvwFOoyex&_nc_oc=AdrCACXe3zzEJ-YOODvisPZF0P631uO0uRTJuPVVZAldNoywIE3QndAkV3XiW7mGLqI&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=OVbYJ7DiSDK43Q4NNfTIdg&_nc_ss=70289&oh=00_AQSKZVp53aQn_HEA6bKgS5i6jOChhbzXdfiqJ1TVfK-YCA&oe=6AF5E720" alt="Kimi Trần" class="fb-preview-avatar" />
+                <div class="fb-preview-info">
+                  <h3>Kimi Trần</h3>
+                  <p>THPT Nguyễn Trãi (Khóa 1995) • Good Vibes</p>
+                  <span class="fb-id-tag">facebook.com/61585364303028</span>
+                </div>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61585364303028"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-block"
+                >
+                  Kết nối trên Facebook ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-signature">Kimi Trần</span>
+        <p>Chúc bạn luôn an lành, hạnh phúc và thành công! —♡—</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Đầu trang</a>
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#bai-viet">Bài viết</a>
+        <a href="#bo-suu-tap">Bộ sưu tập</a>
+        <a href="https://www.facebook.com/profile.php?id=61585364303028" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+      <div class="footer-copy">
+        © 2026 Kimi Trần. Trang web cá nhân chính thức.
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Xem ảnh phóng to">
+    <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Đóng">&times;</button>
+    <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Ảnh trước">&#10094;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg" />
+      <div class="lightbox-caption-bar">
+        <p id="lightboxCaption"></p>
+        <a href="#" target="_blank" rel="noopener noreferrer" id="lightboxFbLink" class="lightbox-fb-btn">
+          Xem ảnh gốc trên Facebook ↗
+        </a>
+      </div>
+    </div>
+    <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Ảnh tiếp theo">&#10095;</button>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <script>
+/**
+ * KIMI TRẦN — PERSONAL PORTFOLIO INTERACTIVITY
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+  const htmlEl = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+  const navLinks = document.getElementById('navLinks');
+  const toastContainer = document.getElementById('toastContainer');
+
+  // 1. Theme Toggle (Dark / Light)
+  const savedTheme = localStorage.getItem('kimi_theme') || 'dark';
+  htmlEl.setAttribute('data-theme', savedTheme);
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const current = htmlEl.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      htmlEl.setAttribute('data-theme', next);
+      localStorage.setItem('kimi_theme', next);
+      showToast(next === 'light' ? '☀️ Đã chuyển sang giao diện Sáng' : '🌙 Đã chuyển sang giao diện Tối');
+    });
+  }
+
+  // 2. Mobile Menu Toggle
+  if (mobileMenuBtn && navLinks) {
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+  }
+
+  // 3. Toast Notification Helper
+  function showToast(message) {
+    if (!toastContainer) return;
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = message;
+    toastContainer.appendChild(toast);
+
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateY(10px)';
+      toast.style.transition = 'all 0.25s ease';
+      setTimeout(() => toast.remove(), 260);
+    }, 3200);
+  }
+
+  // 4. Floating Particle Effect
+  function spawnParticles(x, y, emojis = ['💖', '✨', '🌸', '☀️', '🪷']) {
+    for (let i = 0; i < 12; i++) {
+      const el = document.createElement('span');
+      el.className = 'floating-particle';
+      el.textContent = emojis[i % emojis.length];
+      const angle = (Math.PI * 2 * i) / 12 + (Math.random() - 0.5) * 0.5;
+      const dist = 60 + Math.random() * 90;
+      const tx = Math.cos(angle) * dist + 'px';
+      const ty = Math.sin(angle) * dist - 40 + 'px';
+      const rot = (Math.random() - 0.5) * 60 + 'deg';
+
+      el.style.left = `${x}px`;
+      el.style.top = `${y}px`;
+      el.style.setProperty('--tx', tx);
+      el.style.setProperty('--ty', ty);
+      el.style.setProperty('--rot', rot);
+
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 1400);
+    }
+  }
+
+  // 5. "Gửi lời chào" Button
+  const sendWaveBtn = document.getElementById('sendWaveBtn');
+  if (sendWaveBtn) {
+    sendWaveBtn.addEventListener('click', (e) => {
+      const rect = sendWaveBtn.getBoundingClientRect();
+      const cx = e.clientX || rect.left + rect.width / 2;
+      const cy = e.clientY || rect.top + rect.height / 2;
+      spawnParticles(cx, cy, ['👋', '💖', '✨', '🌻', '🪷']);
+      showToast('👋 Kimi Trần gửi lời chào và chúc bạn một ngày tràn đầy năng lượng!');
+    });
+  }
+
+  // 6. Interactive 9-Sticker Wall
+  const stickerItems = document.querySelectorAll('.sticker-item');
+  const stickerMsgTitle = document.getElementById('stickerMsgTitle');
+  const stickerMsgBody = document.getElementById('stickerMsgBody');
+
+  stickerItems.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      stickerItems.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const title = btn.getAttribute('data-title');
+      const msg = btn.getAttribute('data-msg');
+      const emoji = btn.getAttribute('data-emoji') || '✨';
+
+      if (stickerMsgTitle) stickerMsgTitle.textContent = `${title} ${emoji}`;
+      if (stickerMsgBody) stickerMsgBody.textContent = msg;
+
+      const rect = btn.getBoundingClientRect();
+      const cx = e.clientX || rect.left + rect.width / 2;
+      const cy = e.clientY || rect.top + rect.height / 2;
+      spawnParticles(cx, cy, [emoji, '💖', '✨', '🌸']);
+    });
+  });
+
+  // 7. Gallery Category Filtering
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryCards = document.querySelectorAll('.gallery-card');
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+      galleryCards.forEach((card) => {
+        const category = card.getAttribute('data-category');
+        if (filter === 'all' || category === filter) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+  // 8. Lightbox Modal for Images
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxCaption = document.getElementById('lightboxCaption');
+  const lightboxFbLink = document.getElementById('lightboxFbLink');
+  const lightboxClose = document.getElementById('lightboxClose');
+  const lightboxPrev = document.getElementById('lightboxPrev');
+  const lightboxNext = document.getElementById('lightboxNext');
+
+  const lightboxTriggers = Array.from(document.querySelectorAll('[data-lightbox]'));
+  let currentIndex = 0;
+
+  function openLightbox(index) {
+    if (!lightbox || !lightboxImg) return;
+    currentIndex = (index + lightboxTriggers.length) % lightboxTriggers.length;
+    const target = lightboxTriggers[currentIndex];
+    const src = target.getAttribute('data-lightbox');
+    const caption = target.getAttribute('data-caption') || '';
+    const fbUrl = target.getAttribute('data-fb-url') || 'https://www.facebook.com/profile.php?id=61585364303028';
+
+    lightboxImg.src = src;
+    lightboxImg.alt = caption;
+    if (lightboxCaption) lightboxCaption.textContent = caption;
+    if (lightboxFbLink) lightboxFbLink.href = fbUrl;
+
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+  }
+
+  lightboxTriggers.forEach((el, idx) => {
+    el.addEventListener('click', () => openLightbox(idx));
+  });
+
+  if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+  if (lightboxPrev) lightboxPrev.addEventListener('click', () => openLightbox(currentIndex - 1));
+  if (lightboxNext) lightboxNext.addEventListener('click', () => openLightbox(currentIndex + 1));
+
+  if (lightbox) {
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox || !lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') openLightbox(currentIndex - 1);
+    if (e.key === 'ArrowRight') openLightbox(currentIndex + 1);
+  });
+
+  // 9. Copy Profile Link Button
+  const copyBtn = document.getElementById('copyProfileLinkBtn');
+  const copyBtnText = document.getElementById('copyBtnText');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', async () => {
+      const url = copyBtn.getAttribute('data-url') || 'https://www.facebook.com/profile.php?id=61585364303028';
+      try {
+        await navigator.clipboard.writeText(url);
+        if (copyBtnText) copyBtnText.textContent = 'Đã sao chép liên kết!';
+        showToast('✅ Đã sao chép đường dẫn Facebook của Kimi Trần!');
+        setTimeout(() => {
+          if (copyBtnText) copyBtnText.textContent = 'Sao chép liên kết Facebook';
+        }, 2500);
+      } catch {
+        showToast('🔗 Link: ' + url);
+      }
+    });
+  }
+});
+
+</script>
+</body>
+</html>
