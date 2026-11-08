@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trung Tâm Quản Trị Website & GitHub — Kimi Trần</title>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0d13;
+      --card: #141926;
+      --border: rgba(245, 183, 64, 0.3);
+      --gold: #f5b740;
+      --pink: #ec4899;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --green: #22c55e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 40px 24px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1080px; margin: 0 auto; }
+    .header {
+      background: linear-gradient(135deg, rgba(245, 183, 64, 0.15), rgba(236, 72, 153, 0.12));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .header h1 { font-size: 1.8rem; color: var(--gold); margin-bottom: 6px; }
+    .header p { color: var(--muted); font-size: 0.95rem; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(34, 197, 94, 0.15);
+      color: var(--green);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.88rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: transform 0.25s, border-color 0.25s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+    .card-tag {
+      align-self: flex-start;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(245, 183, 64, 0.15);
+      color: var(--gold);
+    }
+    .card h3 { font-size: 1.22rem; }
+    .card p { color: var(--muted); font-size: 0.9rem; flex: 1; }
+    .url-box {
+      background: rgba(0, 0, 0, 0.35);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-family: monospace;
+      font-size: 0.84rem;
+      color: #fde68a;
+      word-break: break-all;
+    }
+    .btn-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #f5b740, #e11d48);
+      color: #fff;
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .btn:hover { opacity: 0.92; transform: translateY(-1px); }
+    .section-title {
+      font-size: 1.3rem;
+      color: var(--gold);
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>🚀 Trung Tâm Quản Trị Website & GitHub — Kimi Trần</h1>
+        <p>Tài khoản GitHub: <strong>kimitranlifecode-source</strong> (kimitran.lifecode@gmail.com) • Thư mục máy tính: <strong>D:\WEB-SITE</strong></p>
+      </div>
+      <div class="badge">● Hệ thống Quản trị Tập trung</div>
+    </div>
+
+    <h2 class="section-title">1. Danh sách Website Công Khai (GitHub Pages & Local)</h2>
+    <div class="grid">
+      <!-- Website 1: Main Personal Portfolio -->
+      <div class="card">
+        <span class="card-tag">Website Chính Thức #1</span>
+        <h3>Trang Giới Thiệu Bản Thân — Kimi Trần</h3>
+        <p>Website cá nhân đồng bộ từ Facebook Kimi Trần (Hoa sen, Bình minh, Bộ 9 Sticker cảm xúc tương tác, Học vấn THPT Nguyễn Trãi).</p>
+        <div class="url-box">https://kimitranlifecode-source.github.io/</div>
+        <div class="btn-row">
+          <a href="https://kimitranlifecode-source.github.io/" target="_blank" class="btn btn-primary">🌐 Mở trên GitHub Pages ↗</a>
+          <a href="kimi-tran.html" target="_blank" class="btn btn-secondary">💻 Mở bản Offline (D:\WEB-SITE)</a>
+        </div>
+      </div>
+
+      <!-- Website 2: Standalone HTML -->
+      <div class="card">
+        <span class="card-tag">Bản Độc Lập Tất Cả Trong 1</span>
+        <h3>Kimi Trần — Single File HTML</h3>
+        <p>Phiên bản đóng gói toàn bộ hình ảnh gốc, CSS và hiệu ứng vào duy nhất 1 file .html để chia sẻ nhanh hoặc nhúng trực tiếp.</p>
+        <div class="url-box">https://kimitranlifecode-source.github.io/kimi-tran.html</div>
+        <div class="btn-row">
+          <a href="https://kimitranlifecode-source.github.io/kimi-tran.html" target="_blank" class="btn btn-primary">🌐 Mở Link Trực Tuyến ↗</a>
+          <a href="kimi-tran-web.html" target="_blank" class="btn btn-secondary">📄 Mở file nhẹ 91KB</a>
+        </div>
+      </div>
+
+      <!-- Website 3: Existing nt268.github.io -->
+      <div class="card">
+        <span class="card-tag">Website Đã Phát Hành #2</span>
+        <h3>Dự Án nt268.github.io</h3>
+        <p>Website hiện có trên tài khoản GitHub kimitranlifecode-source của bạn (đã bật sẵn GitHub Pages).</p>
+        <div class="url-box">https://kimitranlifecode-source.github.io/nt268.github.io/</div>
+        <div class="btn-row">
+          <a href="https://kimitranlifecode-source.github.io/nt268.github.io/" target="_blank" class="btn btn-primary">🌐 Mở Website ↗</a>
+          <a href="https://github.com/kimitranlifecode-source/nt268.github.io" target="_blank" class="btn btn-secondary">⚙️ Xem Mã Nguồn</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title">2. Liên Kết Quản Trị Nhanh GitHub</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="card-tag">Quản lý Kho Lưu Trữ (Repositories)</span>
+        <h3>Trang Chủ GitHub Của Bạn</h3>
+        <p>Quản lý toàn bộ các dự án website, xem lịch sử cập nhật và cài đặt tên miền GitHub Pages.</p>
+        <div class="btn-row">
+          <a href="https://github.com/kimitranlifecode-source?tab=repositories" target="_blank" class="btn btn-primary">📂 Mở Danh Sách Kho Lưu Trữ ↗</a>
+          <a href="https://github.com/kimitranlifecode-source/kimitranlifecode-source.github.io" target="_blank" class="btn btn-secondary">🛠️ Kho Website Chính</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="card-tag">Cấp Quyền & Kết Nối Nhanh</span>
+        <h3>Ủy Quyền Thiết Bị / Token GitHub</h3>
+        <p>Nếu cần làm mới quyền kết nối tự động cho trợ lý AI từ máy tính, mở nhanh trang xác thực thiết bị hoặc Token tại đây.</p>
+        <div class="btn-row">
+          <a href="https://github.com/login/device" target="_blank" class="btn btn-primary">🔑 Trang Nhập Mã Thiết Bị ↗</a>
+          <a href="https://github.com/settings/tokens/new?scopes=repo,workflow,user&description=Antigravity-Website-Manager" target="_blank" class="btn btn-secondary">⚡ Tạo Mã Token Quản Trị ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
